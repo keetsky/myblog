@@ -1,0 +1,386 @@
+// Custom styles.
+// 页面头部背景
+//.header {  background:url(http://ojoba1c98.bkt.clouddn.com/img/header/header_background.jpg);}
+.header { //background:url(https://s1.ax1x.com/2017/11/12/sEzcT.jpg);//(/images/head.jpg);
+	//background-size: 1950px 600px;
+
+	// background-image: url(https://s1.ax1x.com/2017/11/12/sEzcT.jpg);//(/images/head.jpg);
+  	 background-color: #eee;   //假如背景图像不可用则调用此做背景
+//         background-repeat: inherit;
+         background-size:cover;
+	
+         
+	
+
+}
+body { //background:url(https://s1.ax1x.com/2017/11/12/sSPJg.jpg);//(/images/beijing.jpg);
+     background-attachment: fixed;
+    // background-repeat: no-repeat;	
+    background-color: transparent;   //透明
+    background-size:cover;
+
+}
+/*
+.header {
+  background: #eee;
+}
+*/
+
+//边框高度
+.header-inner {
+    margin: 0 auto;
+    padding: 50px 0 50px;
+    width: 700px;
+}
+// 站点名字体
+.site-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-weight: normal;//bold;
+    color: #009688;
+    line-height: 50px;
+}
+// 标题背景颜色
+.brand {
+    position: relative;
+    display: inline-block;
+    padding: 0 40px;
+    color: #fff;
+    background: #eeeeee;  //#eee6e3
+    border-bottom: none;
+}
+// 站点子标题
+.site-subtitle{ 
+    margin: 0;
+    font-family: SimHei, Verdana, sans-serif //Georgia, sans;
+    font-size: 16px;
+    font-style:italic;
+    color: #a57070; //rgb(255, 255, 255);
+    border-bottom-width: 3px;
+    border-bottom-style: none;
+    border-bottom-color: #442a2a;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15);
+}
+//类目宽度设定
+.menu .menu-item {
+    display: inline-block;
+    margin: 0 15px;
+    list-style: none;
+}
+//类目字体大小下划线颜色设定
+.menu .menu-item a {
+    display: block;
+    font-size: 14px;
+    line-height: inherit;
+    border-bottom: 1px solid #eee;
+    transition-property: border-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+//标题颜色
+.posts-expand .post-title-link {
+    display: inline-block;
+    position: relative;
+    color: #222;
+    border-bottom: none;
+    line-height: 1.2;
+    vertical-align: top;
+}
+h1 {
+    font-size: 28px;
+}
+.posts-expand .post-meta {
+    margin: 3px 0 30px 0;
+    color: #555;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.posts-expand .post-eof {
+    display: block;
+    margin: 50px auto 50px;
+    width: 0%;
+    height: 1px;
+    background: #ccc;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #ec16c5;
+    background: #9E9E9E;
+    border: 2px solid #607D8B;
+    text-decoration: none;
+    border-radius: 0;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    transition-delay: 0s;
+    line-height: 2;
+}
+//右边框设定
+.sidebar-toggle {
+    position: fixed;
+    right: 30px;
+    bottom: 45px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    background: #0d4a65;
+    line-height: 0;
+    z-index: 1050;
+    cursor: pointer;
+    -webkit-transform: translateZ(0);
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    z-index: 1040;
+    box-shadow: 0px 0px 0px 0px #f9f9f9;
+    background: #44364a;
+    -webkit-transform: translateZ(0);
+}
+
+.sidebar-inner {
+    position: relative;
+    padding: 28px 10px;
+    color: #166bec;
+    text-align: center;
+}
+//头像大小
+.site-author-image {
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    max-width: 120px;
+    height: auto;
+    border: site-author-image-border-color;
+    border-radius: 50%;
+    webkit-transition: 1.4s all;
+    moz-transition: 1.4s all;
+    ms-transition: 1.4s all;
+    transition: 1.4s all;
+}
+//名字
+.site-author-name {
+    margin: 5px 0 0;
+    text-align: center;
+    color: #1ccc1c;
+    font-weight: normal;
+    font-size: 22px;
+}
+//时间
+#days {
+    display: block;
+    color: rgb(34, 244, 246);
+    font-size: 13px;
+    margin-top: 15px;
+}
+//设置说明
+.site-description {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #d94fd3;
+}
+
+
+.back-to-top {
+        background: #0d4a65;
+}
+
+.site-state {
+    overflow: hidden;
+    line-height: 1.6;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.site-state-item-count {
+    display: block;
+    text-align: center;
+    color: #bb0606;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.site-state-item-name {
+    font-size: 16px;
+    color: cyan;
+}
+.site-state-item {
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid #544848;
+}
+.feed-link a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #bf69bf;
+    border: 1px solid #fc6423;
+    border-radius: 4px;
+}
+.feed-link a i {
+    color: #166bec;
+    font-size: 14px;
+}
+.links-of-author a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom-color: #44364a;
+    font-size: 15px;
+}
+.links-of-author a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom-color: #44364a;
+    font-size: 15px;
+    color: #ce7272;
+}
+.links-of-author a:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+    content: " ";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #6f861e;
+}
+.links-of-blogroll-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e0d528;
+}
+
+
+
+
+.post-nav-item a {
+    position: relative;
+    display: block;
+    line-height: 25px;
+    font-size: 14px;
+    color: #2e9fff;
+    border-bottom: none;
+}
+
+
+.main-inner {
+    margin: 0 auto;
+    width: 900px;
+}
+
+a {
+
+    border-bottom: 1px solid #fff;
+
+}
+.post-widgets {
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-top: 1px solid #fff;
+}
+.wp_rating {
+    margin-right: 0px;
+    padding-top: 10px;
+}
+.post-nav {
+
+    border-top: 1px solid #fff;
+}
+
+.post-nav-item .fa {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    font-size: 13px;
+}
+//这个是红星上面的文字，下面没用需要到post.swig设定
+element.style {
+    color: #2196F3;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+
+
+
+//页脚心
+@keyframes heartAnimate {
+    0%,100%{transform:scale(1);}
+    10%,30%{transform:scale(0.9);}
+    20%,40%,60%,80%{transform:scale(1.1);}
+    50%,70%{transform:scale(1.1);}
+}
+#heart {
+    animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+    color: rgb(255, 113, 168);
+}
+
+
+//把侧边栏头像变成圆形，并且鼠标停留在上面发生旋转效果
+.site-author-image {
+  display: block;
+  margin: 0 auto;
+  padding: $site-author-image-padding;
+  max-width: $site-author-image-width;
+  height: $site-author-image-height;
+  border: site-author-image-border-color;
+  /* start*/
+  border-radius: 50%
+  webkit-transition: 1.4s all;
+  moz-transition: 1.4s all;
+  ms-transition: 1.4s all;
+  transition: 1.4s all;
+  /* end */
+}
+/* start */
+.site-author-image:hover {
+  background-color: #55DAE1;
+  webkit-transform: rotate(360deg) scale(1.1);
+  moz-transform: rotate(360deg) scale(1.1);
+  ms-transform: rotate(360deg) scale(1.1);
+  transform: rotate(360deg) scale(1.1);
+}
+/* end */
+
+
+// 文章内链接文本样式
+
+
+
+
+//主题的主页文章添加阴影效果
+
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgb(148, 140, 140);
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+ }
+
+
+//修改链接文字样式
+
+
+
+
+
+
