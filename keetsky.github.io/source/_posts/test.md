@@ -1,5 +1,6 @@
 ---
 title: 测试
+date: 2018-02-06 20:03:19 
 comments: true
 english_title: test  #对于中文标题需要个英文字体代替中文显示在URL上
 categories:  #分类 
@@ -15,7 +16,7 @@ tags:	     #两个标签
 # 一级标题
 ## 二级标题
 ### 三级标题
- 
+
 
 ### 列表
 1. 第一节
@@ -100,7 +101,7 @@ class SomeClass:
 
 
 
- 
+
    对于本地图片必须放在test文件夹下,文件夹与文章名test相同
    ![ddd](bg1.jpeg "oyes")
    网络图片

@@ -21,9 +21,14 @@
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-nunjucks": "^2.0.0",
     "hexo-renderer-stylus": "^0.3.1",
+    "hexo-renderer-swig": "^2.0.0",
     "hexo-server": "^0.2.0",
     "hexo-util": "^0.6.2",
     "hexo-wordcount": "^2.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
